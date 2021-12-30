@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'FlinkBackend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'pruebaDB',
         'USER': 'postgres',
         'PASSWORD': 'basededatosaws',
