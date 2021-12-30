@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'FlinkBackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Pruebas',
-        'USER': 'storecheck3',
-        'PASSWORD': 'storecheck',
-        'HOST': 'localhost',
+        'NAME': 'pruebaDB',
+        'USER': 'postgres',
+        'PASSWORD': 'basededatosaws',
+        'HOST': 'testdb.cw0th6csrgos.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
