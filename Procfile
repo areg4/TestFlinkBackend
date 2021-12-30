@@ -1,1 +1,1 @@
-web: gunicorn --preload --bind :8000 --workers 3 --threads 2 FlinkBackend.wsgi:application
+web: gunicorn --preload FlinkBackend.wsgi
