@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'backendCRUD',
     'rest_framework',
     "corsheaders",
+    "gunicorn",
 ]
 
 MIDDLEWARE = [
